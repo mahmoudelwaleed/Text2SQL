@@ -1,0 +1,15 @@
+fastapi==0.115.1 
+starlette==0.37.2 
+pydantic==2.7.1 
+uvicorn
+langchain
+streamlit
+langchain_openai
+langchain-community
+python-dotenv
+qdrant-client[fastembed]
+ipykernel
+pymysql
+langchain_qdrant
+qdrant_client
+python-multipart

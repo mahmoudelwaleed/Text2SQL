@@ -1,0 +1,16 @@
+[
+  {
+    "id": "99",
+    "nl": "Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.",
+    "sql": "SELECT CustomerId, FirstName, LastName, Country FROM Customer WHERE Country <> 'USA';",
+    "tables": ["Customer"],
+    "type": "filter"
+  },
+  {
+    "id": "999",
+    "nl": "Provide a query only showing the Customers from Brazil.",
+    "sql": "SELECT * FROM Customer WHERE Country = 'Brazil';",
+    "tables": ["Customer"],
+    "type": "filter"
+  }
+]
